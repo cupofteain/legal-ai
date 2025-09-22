@@ -54,7 +54,7 @@ The goal is to explore how **natural language processing (NLP)** and **AI ethics
 
 ## 👩‍💻 Author
 
-**Erkekzhan Ramash**
+**Yerkezhan Ramash**
 
 * Aspiring AI and Data Science researcher
 * QA background, Erasmus Mundus applicant 2025
