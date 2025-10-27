@@ -14,7 +14,7 @@ Built with **Gradio**, **Hugging Face API**, and **OpenAI**, this project demons
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 Here are examples of the chatbot in action:
 
