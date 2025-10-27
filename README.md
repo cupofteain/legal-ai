@@ -1,78 +1,91 @@
-# ⚖️ AI Legal Chatbot — Free Legal Support for Every Citizen
+# AI Legal Chatbot
 
-### 💡 Empowering people through accessible legal guidance
-
-Millions of people face unfair treatment or simply cannot afford a lawyer when they need help the most.  
-**AI Legal Chatbot** was built to change that — offering **free, AI-driven legal assistance** focused on **civil rights and military service issues in Kazakhstan** 🇰🇿.
+**AI Legal Chatbot** is a multilingual assistant designed to provide **free legal guidance** for people who cannot afford professional legal services.
+Built with **Gradio**, **Hugging Face API**, and **OpenAI**, this project demonstrates how artificial intelligence can support **social justice and digital inclusion**.
 
 ---
 
-## 🧭 Mission
+## Key Features
 
-> To make legal information accessible to everyone — regardless of income, status, or location.
-
-This project bridges the gap between citizens and legal knowledge.  
-By combining **AI technology** with **ethical design**, it helps people better understand their rights and make informed decisions.
-
----
-
-## 🧠 What It Does
-
-- 💬 Provides clear answers to basic legal questions in real time  
-- 📚 Uses a local FAQ database for fast, offline responses  
-- 🤖 Leverages OpenAI models for more complex, context-aware reasoning  
-- 🛡️ Prioritizes user safety — never stores private data or personal identifiers  
+*  **AI-Powered Legal Support** — provides answers based on legal context and user intent.
+*  **Multilingual Communication** — supports **Kazakh**, **Russian**, and **English** languages.
+*  **Social Mission** — aims to make legal assistance accessible to everyone.
+*  **Technologies Used:** Gradio, Python, Hugging Face Hub, and OpenAI API.
 
 ---
 
-## 🧩 Tech Overview
+## 🖼️ Screenshots
 
-| Component | Purpose |
-|------------|----------|
-| **Python** | Core programming language |
-| **Gradio** | Clean and intuitive chat interface |
-| **OpenAI API** | Language understanding and reasoning |
-| **Local JSON DB** | Stores chat transcripts securely |
-| **FAQ Engine** | Predefined legal Q&A for offline access |
+Here are examples of the chatbot in action:
 
----
+**Kazakh:**
+<img width="912" height="664" alt="image" src="https://github.com/user-attachments/assets/57fa16b9-526f-40eb-9582-adcac4b1267b" />
 
-## 💻 How It Works
+**Russian:**
+<img width="923" height="677" alt="image" src="https://github.com/user-attachments/assets/6ccf70eb-9c70-45bf-91cc-bc48621afae9" />
 
-Users can ask questions about:
-- Rights of conscripts and military deferments  
-- Employment law and workplace rights  
-- Civil and administrative issues  
-
-The chatbot first checks a **local FAQ** for relevant answers.  
-If none are found, it securely queries **OpenAI’s API** to provide an accurate, human-like response — always with a disclaimer that it is **informational, not legal advice**.
-
----
-
-## 🧪 Example Interaction
-
-> **User:** What are my rights if I’m called to military service while studying?  
->
-> **AI Legal Chatbot:**  
-> According to the Law on Military Duty and Service of the Republic of Kazakhstan, full-time students are eligible for a temporary deferment. This response is for general information — for official guidance, please contact your local enlistment office or legal advisor.
+**English:**
 <img width="926" height="705" alt="image" src="https://github.com/user-attachments/assets/7cb423d6-959a-4a37-a655-3c9830e5b453" />
-> <img width="923" height="677" alt="image" src="https://github.com/user-attachments/assets/6ccf70eb-9c70-45bf-91cc-bc48621afae9" />
-> <img width="912" height="664" alt="image" src="https://github.com/user-attachments/assets/57fa16b9-526f-40eb-9582-adcac4b1267b" />
-
-
 
 ---
 
-## 🛠️ Installation (for local testing)
+## � Project Structure
 
-```bash
-git clone https://github.com/cupofteain/legal-ai.git
-cd legal-ai
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-export OPENAI_API_KEY="your_api_key"
-python app.py
+```
+├── app.py              # Main chatbot logic
+├── requirements.txt    # Dependencies
+├── README.md           # Documentation
+└── images/             # Screenshots
+```
 
+---
 
-An example chatbot using [Gradio](https://gradio.app), [`huggingface_hub`](https://huggingface.co/docs/huggingface_hub/v0.22.2/en/index), and the [Hugging Face Inference API](https://huggingface.co/docs/api-inference/index).
+##  How to Run
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/cupofteain/legal-ai.git
+   cd legal-ai
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the app locally:
+
+   ```bash
+   python app.py
+   ```
+
+4. Open your browser and visit:
+
+   ```
+   http://127.0.0.1:7860/
+   ```
+
+---
+
+##  Future Improvements
+
+* Integration with **real legal databases**
+* Adding **voice input/output** for accessibility
+* Deployment on **Hugging Face Spaces** and **mobile version**
+
+---
+
+## Author
+
+**Erkezhan Ramash Nurlankyzy**
+QA Engineer | AI Enthusiast | Social Impact Innovator
+[GitHub](https://github.com/cupofteain) 
+
+---
+
+## ⚖️ License
+
+This project is open-source under the MIT License.
+
