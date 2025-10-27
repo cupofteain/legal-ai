@@ -22,7 +22,6 @@ By combining **AI technology** with **ethical design**, it helps people better u
 - 📚 Uses a local FAQ database for fast, offline responses  
 - 🤖 Leverages OpenAI models for more complex, context-aware reasoning  
 - 🛡️ Prioritizes user safety — never stores private data or personal identifiers  
-- 💾 Saves anonymized conversation history for research and improvement  
 
 ---
 
@@ -56,6 +55,11 @@ If none are found, it securely queries **OpenAI’s API** to provide an accurate
 >
 > **AI Legal Chatbot:**  
 > According to the Law on Military Duty and Service of the Republic of Kazakhstan, full-time students are eligible for a temporary deferment. This response is for general information — for official guidance, please contact your local enlistment office or legal advisor.
+<img width="926" height="705" alt="image" src="https://github.com/user-attachments/assets/7cb423d6-959a-4a37-a655-3c9830e5b453" />
+> <img width="923" height="677" alt="image" src="https://github.com/user-attachments/assets/6ccf70eb-9c70-45bf-91cc-bc48621afae9" />
+> <img width="912" height="664" alt="image" src="https://github.com/user-attachments/assets/57fa16b9-526f-40eb-9582-adcac4b1267b" />
+
+
 
 ---
 
