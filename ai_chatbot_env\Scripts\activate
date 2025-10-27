@@ -1,0 +1,4 @@
+# Создать виртуальное окружение в папке chatbot
+python3 -m venv venv
+# Активировать его
+source venv/bin/activate
